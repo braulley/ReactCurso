@@ -3,7 +3,13 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 //import PrimeiroComponent from './components/PrimeiroComponent'
-import {CompA, CompB as B} from './components/DoisComponentes'
+//Export por padrão, não precisa importar dentor de chaves
+//import A, {CompB as B} from './components/DoisComponentes'
+//import MultiComponent from './components/MultiElementos'
+//import FamiliaSilva from './components/FamiliaSilva'
+import Familia from './components/Familia'
+import Membro from './components/Membro'
+import FamiliaSilva from './components/FamiliaSilva';
 
 /*ReactDOM.render(
   <App />,
@@ -18,11 +24,22 @@ const jsx = <ul>
 
 
 ReactDOM.render(
-  /*<div><PrimeiroComponent valor="Bom Dia" Abcd={123}/></div>*/
   <div>
-    <CompA valor="Olá, eu sou o A"/>
+    <Familia sobrenome="Pereira" numero={123}>
+      <Membro nome="André" />
+      {/*<Membro nome="Mariana" />*/}
+    </Familia>
+  </div>,
+  /*<div>
+    <FamiliaSilva sobrenome="Silva"/>
+    <A valor="Olá, eu sou o A"/>
     <B valor="Olá, eu sou o B" />
   </div>,
+  <div><PrimeiroComponent valor="Bom Dia" Abcd={123}/></div>*/
+ /* 
+  <div>
+    <MultiComponent />
+</div>*/
   document.getElementById('root')
 );
 
