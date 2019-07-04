@@ -10,7 +10,8 @@ import './index.css';
 import Familia from './components/Familia'
 import Membro from './components/Membro'
 import FamiliaSilva from './components/FamiliaSilva';
-
+import ComponentComFuncao from './components/ComponentComFuncao'
+import Pai from  './components/Pai'
 /*ReactDOM.render(
   <App />,
   document.getElementById('root')
@@ -25,10 +26,12 @@ const jsx = <ul>
 
 ReactDOM.render(
   <div>
-    <Familia sobrenome="Pereira" numero={123}>
-      <Membro nome="André" />
-      {/*<Membro nome="Mariana" />*/}
-    </Familia>
+    <Pai />
+    {/*<ComponentComFuncao />*/}
+    {/*<Familia sobrenome="Pereira" numero={123}>
+      <Membro nome="André" />      
+      <Membro nome="Mariana" />
+</Familia>*/}
   </div>,
   /*<div>
     <FamiliaSilva sobrenome="Silva"/>
