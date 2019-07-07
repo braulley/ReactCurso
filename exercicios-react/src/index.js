@@ -12,6 +12,9 @@ import Membro from './components/Membro'
 import FamiliaSilva from './components/FamiliaSilva';
 import ComponentComFuncao from './components/ComponentComFuncao'
 import Pai from  './components/Pai'
+import ComponentClasse from './components/ComponenteClasse'
+import Contador from './components/Contador'
+import Hook from './components/Hook'
 /*ReactDOM.render(
   <App />,
   document.getElementById('root')
@@ -26,7 +29,10 @@ const jsx = <ul>
 
 ReactDOM.render(
   <div>
-    <Pai />
+    <Hook />
+    {/*<Contador numeroInicial = {100} />*/}
+    {/*<ComponentClasse valor="Sou um componente de classe!"/>*/} 
+    {/*<Pai />*/}
     {/*<ComponentComFuncao />*/}
     {/*<Familia sobrenome="Pereira" numero={123}>
       <Membro nome="André" />      

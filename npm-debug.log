@@ -4,7 +4,7 @@
 3 info using node@v8.10.0
 4 verbose stack Error: ENOENT: no such file or directory, open '/home/braulley/package.json'
 5 verbose cwd /home/braulley/Documentos/CursoReact
-6 error Linux 4.15.0-52-generic
+6 error Linux 4.15.0-54-generic
 7 error argv "/usr/bin/node" "/usr/bin/npm" "start"
 8 error node v8.10.0
 9 error npm  v3.5.2
